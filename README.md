@@ -2,6 +2,11 @@
 
 This repository demonstrates the integration of NVIDIA's GR00T (General Robot Operator & Orchestrator Transformer), a foundational model for robotics, with various robots in the IsaacSim environment. GR00T represents a significant advancement in robotics AI as it's trained directly from video data, enabling it to learn general robotic behaviors across different morphologies and tasks without task-specific training.
 
+## GR00T Architecture
+![GR00T Architecture](model-architecture.png)
+*GR00T's architecture consists of two main systems: System 2 (Vision-Language Model) processes visual and language inputs, while System 1 (Diffusion Transformer) generates motor actions based on robot state and higher-level representations.*
+
+
 ## Overview
 
 This project explores its application with several IsaacSim robots:
